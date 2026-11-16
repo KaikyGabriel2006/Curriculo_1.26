@@ -1,0 +1,145 @@
+{
+    "cv": {
+      "metadata": {
+        "version": "1.0",
+        "language": "pt-BR",
+        "lastUpdated": "2026-11-16"
+      },
+      "personalInformation": {
+        "fullName": "Kaiky Gabriel Lima Hungarette",
+        "professionalTitle": "Estudante de Análise e Desenvolvimento de Sistemas | Suporte de TI & Desenvolvimento Web",
+        "profilePhoto": "",
+        "email": "kaiky.2006.ml@gmail.com",
+        "phone": "11988209197",
+        "whatsapp": "11988209197",
+        "location": {
+          "city": "Suzano",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "address": "Av. Mogi das Cruzes, 1001 - Parque Suzano, Suzano - SP, 08673-010"
+        },
+        "linkedin": "",
+        "github": "https://github.com/KaikyGabriel2006",
+        "portfolio": "https://github.com/KaikyGabriel2006",
+        "website": ""
+      },
+      "professionalSummary": {
+        "description": "Estudante de Análise e Desenvolvimento de Sistemas com conhecimentos práticos em HTML, CSS, JavaScript e Excel. Focado em iniciar a carreira na área de tecnologia, aplicando raciocínio lógico, organização e facilidade de aprendizado para resolver problemas.",
+        "yearsOfExperience": 0,
+        "mainSpecialization": "Suporte de TI e Desenvolvimento Web Front-end",
+        "careerObjective": "Atuar como Jovem Aprendiz ou na área de Suporte de TI, contribuindo com conhecimentos em tecnologia, lógica de programação e ferramentas de escritório para otimizar rotinas e apoiar a equipe."
+      },
+      "professionalExperience": [],
+      "education": [
+        {
+          "institution": "",
+          "degree": "Tecnólogo",
+          "fieldOfStudy": "Análise e Desenvolvimento de Sistemas",
+          "level": "Ensino Superior",
+          "startDate": "2026",
+          "endDate": "",
+          "current": true,
+          "description": "Graduação em andamento com foco em lógica de programação, desenvolvimento web e fundamentos de sistemas."
+        }
+      ],
+      "skills": {
+        "technical": [
+          {
+            "name": "HTML5",
+            "level": "Intermediário"
+          },
+          {
+            "name": "CSS3",
+            "level": "Intermediário"
+          },
+          {
+            "name": "JavaScript",
+            "level": "Básico / Intermediário"
+          },
+          {
+            "name": "Microsoft Excel",
+            "level": "Intermediário"
+          }
+        ],
+        "behavioral": [
+          "Vontade de aprender",
+          "Resolução de problemas",
+          "Organização",
+          "Trabalho em equipe",
+          "Proatividade"
+        ],
+        "tools": [
+          "Microsoft Excel",
+          "Git",
+          "GitHub",
+          "VS Code"
+        ],
+        "methodologies": []
+      },
+      "languages": [
+        {
+          "name": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "name": "Inglês",
+          "proficiency": "Intermediário (Nível 2)"
+        }
+      ],
+      "certifications": [],
+      "projects": [
+        {
+          "name": "Calculadora Interativa",
+          "description": "Desenvolvimento de uma calculadora funcional para execução de operações matemáticas básicas na web, aplicando manipulação do DOM e lógica de programação.",
+          "role": "Desenvolvedor Front-end",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "url": "https://github.com/KaikyGabriel2006/Calculadora-INICIAL.git",
+          "startDate": "2026",
+          "endDate": "2026"
+        },
+        {
+          "name": "Tabela Dinâmica de Carros",
+          "description": "Aplicação web para exibição, organização e manipulação de dados de veículos em formato de tabela interativa utilizando JavaScript.",
+          "role": "Desenvolvedor Front-end",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "url": "https://github.com/KaikyGabriel2006/tabela_js__1.26.git",
+          "startDate": "2026",
+          "endDate": "2026"
+        }
+      ],
+      "courses": [],
+      "additionalInformation": {
+        "availability": "Imediata",
+        "workModel": "Presencial ou Híbrido",
+        "travelAvailability": false,
+        "additionalNotes": "Em busca da primeira oportunidade profissional (Jovem Aprendiz / Estágio / Suporte de TI)."
+      },
+      "preferences": {
+        "targetPositions": [
+          "Jovem Aprendiz",
+          "Suporte de TI",
+          "Estágio em TI"
+        ],
+        "targetIndustries": [
+          "Tecnologia da Informação",
+          "Desenvolvimento de Software",
+          "Suporte Técnico"
+        ],
+        "preferredLocations": [
+          "Suzano - SP",
+          "Alto Tietê",
+          "São Paulo - SP"
+        ],
+        "preferredWorkModel": "Presencial ou Híbrido"
+      }
+    }
+  }
+  
