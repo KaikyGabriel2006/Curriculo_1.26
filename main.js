@@ -7,7 +7,6 @@ async function carregarCurriculo() {
       document.getElementById('full-name').textContent = cv.personalInformation.fullName;
       document.getElementById('prof-title').textContent = cv.personalInformation.professionalTitle;
       
-      // Adicionado para carregar a foto de perfil do JSON
       const photoElement = document.getElementById('profile-photo');
       if (photoElement && cv.personalInformation.profilePhoto) {
         photoElement.src = cv.personalInformation.profilePhoto;
