@@ -6,11 +6,18 @@ async function carregarCurriculo() {
   
       document.getElementById('full-name').textContent = cv.personalInformation.fullName;
       document.getElementById('prof-title').textContent = cv.personalInformation.professionalTitle;
+      
+      // Adicionado para carregar a foto de perfil do JSON
+      const photoElement = document.getElementById('profile-photo');
+      if (photoElement && cv.personalInformation.profilePhoto) {
+        photoElement.src = cv.personalInformation.profilePhoto;
+      }
   
       const contactList = document.getElementById('contact-info');
       const { city, state, country } = cv.personalInformation.location;
       contactList.innerHTML = `
-        <li>${city}, ${state} - ${country === 'Brazil' ? 'Brasil' : country}</li>
+-         <li>${city}, ${state}
+${country === 'Brazil' ? 'Brasil' : country}</li>
         <li>Tel / WhatsApp: ${cv.personalInformation.phone}</li>
         <li><a href="mailto:${cv.personalInformation.email}">${cv.personalInformation.email}</a></li>
         ${cv.personalInformation.github ? `<li><a href="${cv.personalInformation.github}" target="_blank">GitHub</a></li>` : ''}
@@ -29,7 +36,8 @@ async function carregarCurriculo() {
               <span class="item-title">${exp.position}</span>
               <span class="item-date">${exp.startDate} – ${exp.current ? 'Atual' : exp.endDate}</span>
             </div>
-            <div class="item-subtitle">${exp.company} • ${exp.location}</div>
+-             <div class="item-subtitle">${exp.company}
+${exp.location}</div>
             <p>${exp.description}</p>
           </div>
         `).join('');
@@ -88,4 +96,3 @@ async function carregarCurriculo() {
   }
   
   document.addEventListener('DOMContentLoaded', carregarCurriculo);
-  

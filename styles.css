@@ -37,9 +37,18 @@
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  
+  .header-photo img {
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 2px solid var(--accent);
   }
   
   .header-main h1 {
@@ -168,4 +177,3 @@
       max-width: 100%;
     }
   }
-  
